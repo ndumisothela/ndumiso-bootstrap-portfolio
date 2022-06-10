@@ -16,6 +16,7 @@ body {
 }
 .banner_wrap {
   background-image: url("./Assets/ndumiso.JPG");
+  object-fit: contain;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
