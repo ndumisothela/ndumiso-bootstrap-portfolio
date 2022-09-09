@@ -24,9 +24,11 @@
   height: 100%;
   width: 100%;
   background: black;
-  opacity: 50%;
+
   position: absolute;
   top: 0s;
+
+  opacity: 50%;
 }
 
 .cover-container {

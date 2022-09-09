@@ -195,21 +195,23 @@
           <div class="col-md-4 mt-3">
             <div class="card">
               <img
-                src="http://res.cloudinary.com/akhilboddu28/image/upload/v1634758209/hchreqqmi9qhebep7ju3.png"
+                src="./Assets/dex.jpg"
                 class="card-img-top"
-                alt="Netflix_image"
+                alt="youtube_image"
               />
               <div class="card-body">
-                <h5 class="card-title">Netflix Landing Page</h5>
-                <p class="card-text">Built this with HTML & CSS</p>
+                <h5 class="card-title">PokeDEX</h5>
+                <p class="card-text">
+                  Built this with HTML & CSS and TypeScript
+                </p>
                 <a
-                  href="https://nextflix-landing-page.netlify.app/"
+                  href="https://pokeman-dex.netlify.app/"
                   target="_blank"
                   class="btn btn-primary"
                   >View Website</a
                 >
                 <a
-                  href="https://github.com/ndumisothela/ndumiso-git-netflix.git"
+                  href="https://github.com/ndumisothela/pokedex"
                   target="_blank"
                   class="btn btn-outline-primary"
                   ><i class="bi bi-code-slash"></i
@@ -517,11 +519,12 @@
               ></a>
             </p>
 
-            <form>
+            <form action="https://formspree.io/f/xvoyggkj" method="POST">
               <div class="mb-3">
                 <input
                   type="email"
                   class="form-control"
+                  name="email"
                   id="exampleInput@Email1"
                   aria-describedby="emailHelp"
                   placeholder="Email address"
@@ -532,25 +535,19 @@
                   type="text"
                   class="form-control"
                   id="name"
+                  name="text"
                   placeholder="Enter Name"
-                />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="subject"
-                  placeholder="Enter Subject"
                 />
               </div>
               <div class="form-floating mb-3">
                 <textarea
                   class="form-control"
                   placeholder="Leave a comment here"
+                  name="message"
                   id="floatingTextarea2"
                   style="height: 100px"
                 ></textarea>
-                <label for="floatingTextarea2">Enter Message</label>
+                <div for="floatingTextarea2">Enter Message</div>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
@@ -576,7 +573,7 @@
       });
     </script>
   </body>
-  <footer class="bg-dark text-center text-white">
+  <footer class="footer bg-dark text-center text-white">
     <div class="container p-2">
       <p class="lead">
         <small>developed by Ndumiso Thela using Bootstrap.</small>
